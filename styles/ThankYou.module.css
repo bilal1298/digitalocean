@@ -1,0 +1,110 @@
+.thankYouSection {
+  padding: 200px 0;
+  background-color: #dde3ff;
+}
+
+.thankYouSection h1 {
+  font-size: 70px;
+}
+
+.thankYouSection p {
+  font-size: 24px;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.caseStudies {
+  padding: 70px 0;
+}
+
+.caseStudies h2 {
+  margin-bottom: 30px;
+}
+
+.caseStudy {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.readMore {
+  font-weight: bold;
+  color: #002eff;
+}
+
+.readMore:hover {
+  color: #fece1a;
+}
+
+.blogSection {
+  padding: 70px 0;
+  background-color: #fff;
+}
+
+.blogs {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog {
+  width: 32%;
+}
+
+.blogImage img {
+  border-radius: 10px;
+  filter: brightness(0.5);
+}
+
+.blogImage img:hover {
+  filter: none;
+}
+
+.blogTitle {
+  margin: 20px 0;
+}
+
+.blogTitle h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.excerpt {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .thankYouSection p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .blogs {
+    flex-direction: column;
+  }
+  .blog {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .blog:last-of-type {
+    margin: 0;
+  }
+  .thankYouSection{
+    padding-top: 120px;
+  }
+  .thankYouSection h1 {
+    font-size: 40px;
+  }
+  .thankYouSection p {
+    font-size: 18px;
+  }
+}

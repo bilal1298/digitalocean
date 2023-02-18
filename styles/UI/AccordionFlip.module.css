@@ -1,0 +1,73 @@
+.accordionContainer {
+  border-bottom: 1px solid #d7d7d7; 
+}
+
+.accordionContainer a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 16px; 
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+}
+
+.accordionContainer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px 10px;
+  color: #000;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.title h2 {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.title svg {
+  cursor: pointer;
+}
+
+/* .active .title {
+    background-color: #ebf5ff;
+  }
+  
+  .active .desc {
+    background: #ebf5ff;
+  } */
+
+.desc p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.desc {
+  padding: 0 10px 20px;
+}
+
+.flipLink {
+  background-color: #002eff;
+  border-radius: 50px;
+  display: inline-block !important;
+  margin-top: 25px;
+  color: #fff !important;
+  padding: 12px 30px !important;
+  border: 2px solid #002eff;
+}
+
+.flipLink:hover {
+  background-color: #fece1a;
+  border: 2px solid #000;
+  color: #000;
+}

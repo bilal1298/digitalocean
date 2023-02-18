@@ -1,0 +1,243 @@
+.header {
+  width: 100%;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  transition: 0.2s ease-in-out; 
+}
+ 
+.header.scrolled {
+  background-color: #fff !important;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%); 
+}
+
+.active {
+  color: #fece1a !important;
+}
+
+.logoBlue {
+  display: none;
+}
+
+.header.scrolled .logoBlue {
+  display: block;
+}
+
+.header.scrolled .logoWhite {
+  display: none;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo img {
+  width: 60%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  padding: 35px 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.downArrow {
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5px;
+  filter: invert(1);
+}
+
+.header.scrolled .downArrow {
+  filter: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header.scrolled .menu ul li a {
+  color: #000;
+}
+
+.menu ul li:not(.headerButton):hover a {
+  color: #fece1a;
+}
+
+.menu ul li:not(.headerButton):hover .downArrow {
+  filter: invert(88%) sepia(35%) saturate(3038%) hue-rotate(343deg) brightness(106%) contrast(99%);
+}
+
+/* .menu ul li:last-of-type:hover a {
+  background-color: #fece1a !important;
+} */
+
+.button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  color: #fff !important;
+  border-radius: 100px;
+  font-size: 12px !important;
+  border: 2px solid #002eff;
+}
+
+.button:hover {
+  background-color: #fece1a; 
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+.subContainer {
+  width: 100%;
+  position: absolute;
+}
+
+.resourceSubContainer {
+  width: 150%;
+  position: absolute;
+  left: -30px;
+  top: 94px;
+}
+
+.mobileMenuIcon {
+  display: none;
+  cursor: pointer;
+}
+
+.hamIcon {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.hamIcon:hover {
+  color: #fece1a;
+}
+
+.header.scrolled .hamIcon {
+  color: #002eff;
+}
+
+.header.scrolled .hamIcon:hover {
+  color: #fece1a;
+}
+
+.mobileMenu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.mobileMenuTopBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #f2f2f2;
+}
+
+.mobileMenuTopBar img {
+  width: 40%;
+}
+
+.closeIcon {
+  /* position: absolute;
+  right: 25px;
+  top: 25px; */
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.closeIcon:hover {
+  color: #fece1a;
+}
+
+.mobileMenuList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mobileMenuList li {
+  padding: 20px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.mobileMenuList li a {
+  color: #000;
+}
+
+.resourcesli {
+  padding: 20px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.resourcesLink {
+  padding: 0 !important;
+}
+
+@media (max-width: 1200px) {
+  .menu ul li {
+    padding: 35px 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 20px 0;
+  }
+  .header nav {
+    padding: 0;
+  }
+  .menu {
+    display: none;
+  }
+  .mobileMenuIcon {
+    display: block;
+  }
+  .logo img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 20px;
+  }
+  .logo {
+    width: 50%;
+  }
+}

@@ -1,0 +1,41 @@
+.section {
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderContainer {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: .2s ease-in-out;
+}
+
+.slider img {
+  min-width: 33%;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+

@@ -1,0 +1,350 @@
+.whiteLabelBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 150px;
+  padding-top: 150px;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../public/bannerBg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+ 
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroText {
+  width: 55%;
+}
+
+.heroText h1{
+  color: #fff;
+}
+
+.heroText p{
+  color: #fff;
+}
+
+.heroForm {
+  width: 35%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px 20px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+}
+
+.form h3 {
+  font-size: 25px;
+}
+
+.form p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.form form {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  height: 40px;
+}
+
+.form select {
+  width: 100%;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: #fece1a;
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+.partnerLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 50px 0 0; */
+}
+
+.partnerLogo img {
+  width: 20%;
+  filter: grayscale(1);
+}
+
+.partnerLogo img:hover {
+  filter: none;
+  /* box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%); */
+}
+
+.industryBoxes,
+.whiteLabelBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 50px 0;
+}
+
+.whiteLabelBoxes {
+  margin-bottom: 0;
+}
+
+.industryBox {
+  width: 48%;
+  margin: 15px 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.industryBox img {
+  width: 50%;
+}
+
+.agencyBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 50px 0;
+}
+
+.agencyBox {
+  width: 30%;
+  margin: 15px 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agencyBox img {
+  width: 70%;
+}
+
+.whiteLabelBox {
+  background-color: #fcfcfc;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  border-radius: 10px;
+  padding: 40px;
+  width: 23%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whiteLabelBox h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.whiteLabelBox img {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.revenueGoals {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.revenueGoals img {
+  width: 30%;
+}
+
+.p {
+  width: 50%;
+  margin: 50px auto 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.pricingCard {
+  background: #fff;
+  /* box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%); */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 0 20px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.shape {
+  background-image: url("../public/shape.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 60%;
+}
+
+.title {
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* .container h4 {
+  font-weight: 600;
+} */
+
+.price {
+  padding: 12px 30px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.pricingCard .detail {
+  text-align: center;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .industryBox {
+    width: 47%;
+  }
+  .whiteLabelBox {
+    width: 47%;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .whiteLabelBanner {
+    padding: 120px 0 50px;
+  }
+  .whiteLabelBanner h1 {
+    font-size: 35px;
+  }
+  .heroContainer {
+    flex-direction: column;
+  }
+  .heroText {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .heroForm {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .agencyBox {
+    width: 46%;
+  }
+  .industryBox {
+    width: 46%;
+  }
+  .whiteLabelBox {
+    width: 46%;
+  }
+  .whiteLabelBanner h1 {
+    width: 90%;
+    font-size: 30px;
+  }
+  .p {
+    width: 90%;
+    font-size: 20px;
+  }
+  .whiteLabelBanner img:first-of-type,
+  .whiteLabelBanner img:last-of-type {
+    width: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  .agencyBox {
+    width: 100%;
+  }
+  .industryBox {
+    width: 100%;
+  }
+  .whiteLabelBox {
+    width: 100%;
+  }
+}

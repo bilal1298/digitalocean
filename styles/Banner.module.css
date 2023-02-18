@@ -1,0 +1,119 @@
+.heroText {
+  width: 50%;
+  padding-right: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+
+.heroImage {
+  width: 50%;
+  padding-left: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroText h1 {
+  font-family: "veronabold";
+  font-size: 50px;
+  color: #fff;
+}
+
+.heroText p {
+  margin: 20px 0 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+section.banner {
+  background-color: #99b4ff;
+}
+
+section.banner.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../public/bannerBg.jpg");
+  background-position: center;
+  background-size: cover;
+
+  /* background: #AEB9E4;
+background: -webkit-radial-gradient(center, #AEB9E4, #6974A4);
+background: -moz-radial-gradient(center, #AEB9E4, #6974A4);
+background: radial-gradient(ellipse at center, #AEB9E4, #6974A4); */
+}
+
+div.banner {
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.heroImage img {
+  width: 50%;
+  height: auto;
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@media (max-width: 1400px) {
+  .heroText h1 {
+    font-size: 40px;
+  }
+  .heroText {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroText h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .heroText {
+    width: 100%;
+    padding: 0;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .heroImage {
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+  }
+  .heroImage img{
+    width: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroText {
+    padding: 0 20px;
+  }
+  .heroImage {
+    /* margin-top: 50px;
+    padding: 0;
+    width: 70%; */
+    display: none;
+  }
+}

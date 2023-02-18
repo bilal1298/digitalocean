@@ -1,0 +1,954 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 50%;
+}
+
+.cta {
+  width: 50%;
+  text-align: rigHT;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.whiteLabelBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0 70px;
+  text-align: left;
+  position: relative;
+  background: url("../public/dental marketing bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.p {
+  width: 50%;
+  margin: 50px auto 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroText {
+  width: 45%;
+}
+
+.heroImage {
+  width: 45%;
+  position: absolute;
+  bottom: 0;
+  right: 3%;
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.heroForm {
+  margin-top: 50px;
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px 20px 20px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+}
+
+.form h3 {
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.form p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.form form {
+  border-radius: 10px;
+  padding: 20px 20px 10px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+
+  height: 40px;
+}
+
+.form select {
+  width: 100%;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: #fece1a;
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+.numbers {
+  padding: 30px 0 20px;
+  background-color: #002eff;
+}
+
+.number {
+  text-align: center;
+  color: #fff;
+}
+
+.number h3 {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 0;
+  color: #fece1a;
+}
+
+.partnerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0;
+}
+
+.partnerLogo img {
+  width: 20%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #fff;
+  filter: grayscale(1);
+  margin: 0 20px;
+}
+
+.partnerLogo img:hover {
+  filter: none;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+}
+
+.industryBoxes,
+.whiteLabelBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 50px 0;
+}
+
+.whiteLabelBoxes {
+  margin-bottom: 0;
+}
+
+.industryBox {
+  width: 48%;
+  margin: 15px 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.industryBox img {
+  width: 50%;
+}
+
+.whiteLabelBox {
+  background-color: #fcfcfc;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  border-radius: 10px;
+  padding: 40px;
+  width: 23%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whiteLabelBox h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.whiteLabelBox img {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.revenueGoals {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.revenueGoals img {
+  width: 30%;
+}
+
+.abcContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.abc {
+  padding: 40px;
+  background-color: white;
+  border-radius: 15px;
+  width: 24%;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.abc h3 {
+  font-size: 24px;
+}
+
+.abc h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fece1a;
+  color: #000;
+  font-size: 25px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.abc p {
+  margin: 30px 0;
+}
+
+.abc img {
+  width: 80%;
+}
+
+.adsLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0;
+  flex-wrap: wrap;
+}
+
+.adsLogo img {
+  width: 22%;
+  margin: 15px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #fff;
+  filter: grayscale(1);
+  padding: 25px;
+}
+
+.adsLogo img:hover {
+  filter: none;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+}
+
+.testimonials {
+  padding: 50px !important;
+  margin-top: 10px;
+}
+
+.caseStudy {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #002eff;
+}
+
+.caseStudy .details {
+  border-bottom: 2px solid #cfcfcf;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.caseStudy .details .image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid #002eff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+}
+
+.caseStudy .details img {
+  width: 70%;
+}
+
+.caseStudy .details h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #002eff;
+}
+
+.caseStudy .details p {
+  text-align: center;
+}
+
+.caseStudy .content {
+  padding: 0 10px;
+}
+
+.caseStudy .content svg {
+  color: #002eff;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  max-width: 12px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #002eff;
+  border-radius: 10px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+}
+
+.testimonial .image {
+  width: 100px;
+  height: 100px;
+  background: #abbaff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.testimonial .image img {
+  width: 80%;
+}
+
+.testimonial .content h4 {
+  border-bottom: 1px solid #002eff;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+
+.testimonial h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.testimonial h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.noBrainer {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 50px 0;
+}
+
+.noBrainer .item {
+  width: 25%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.noBrainer .item h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.noBrainer .item img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 50px;
+}
+
+.scheduleForm {
+  width: 40%;
+  background-color: #fece1a;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+.schedulePoints {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 0 10px 10px 0;
+  padding: 50px 20px 20px 60px;
+}
+
+.scheduleForm form {
+  padding: 20px;
+}
+
+.scheduleForm form input,
+.scheduleForm form textarea {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.scheduleForm form textarea {
+  height: 100px;
+}
+
+.scheduleForm form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.schedulePoints ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.schedulePoints ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.stepsContainer {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.steps {
+  width: 60%;
+  padding-right: 100px;
+  position: relative;
+}
+
+.steps::before {
+  content: "";
+  background-image: url("../public/stepsLine.png");
+  display: block;
+  height: 75%;
+  width: 2px;
+  position: absolute;
+  top: 70px;
+  left: 48px;
+}
+
+.stepsContainer .image {
+  width: 40%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../public/happy dentist.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.step .img {
+  width: 100px;
+  height: 100px;
+}
+
+.stepDesc {
+  width: 90%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.stepDesc h3 {
+  font-size: 20px;
+  color: #002eff;
+}
+
+.stepDesc p {
+  margin-bottom: 0;
+}
+
+.step img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
+.stepsContainer .image {
+  padding: 50px;
+}
+
+.stepsText h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.stepsText h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+}
+
+.footer {
+  background-color: #031254;
+  padding: 40px 0;
+}
+
+.footerRow {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerCol {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerCol h4 {
+  font-size: 18px;
+}
+
+.footerCol h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer svg {
+  max-width: 20px;
+}
+
+.email {
+  font-size: 18px;
+  color: #fece1a;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.email .icon {
+  width: 10%;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.hours {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hours .icon {
+  width: 10%;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.phone {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.phone .icon {
+  width: 10%;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.footerCol:nth-of-type(2) {
+  padding-left: 30px;
+}
+
+.hours {
+  font-size: 18px;
+  color: #fece1a;
+  font-weight: 600;
+}
+
+.phone {
+  color: #fece1a;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  width: 50px;
+  height: 50px;
+  background-color: #002eff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.social svg {
+  color: #fff;
+  max-width: 40px;
+}
+
+.social svg:hover {
+  color: #fece1a;
+}
+
+.myButton {
+  padding: 15px 30px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.myButton:hover {
+  background-color: #fece1a;
+  border: 2px solid #000;
+  color: #000;
+}
+.mobileImage {
+  display: none;
+}
+.heroText p {
+  margin-top: 30px;
+}
+
+.horizontalFormSection {
+  padding: 70px 0;
+}
+
+.horizontalFormSection h2 {
+  text-align: left;
+}
+
+.horizontalForm {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.horizontalForm form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.horizontalForm form input {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.horizontalForm form input::placeholder {
+  /* color: #002eff; */
+  font-size: 18px;
+}
+
+.horizontalForm form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.horizontalForm form button:hover {
+  background-color: #fece1a;
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+@media (max-width: 1400px) {
+  .heroImage {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroContainer {
+    flex-direction: column;
+    padding: 0;
+  }
+  .whiteLabelBanner {
+    padding-bottom: 0;
+  }
+  .heroText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .heroText h1 {
+    text-align: center !important;
+    padding: 0 15px;
+  }
+  .heroText > p {
+    padding: 40px 20px;
+    background-color: #002eff;
+    color: #fff;
+    margin: 0;
+  }
+  .heroForm {
+    margin: 0 0 40px !important;
+  }
+  .heroImage {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: none;
+  }
+  .heroImage img {
+    width: 70%;
+  }
+  .mobileImage {
+    margin: 30px 0 0;
+    display: block;
+  }
+  .horizontalForm form input {
+    width: 45%;
+    margin: 0 20px 20px 0;
+  }
+  .horizontalForm form button {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footerRow {
+    flex-wrap: wrap;
+  }
+  .footerCol {
+    width: 50%;
+    padding: 0 !important;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .numbers {
+    display: none;
+  }
+  .p {
+    width: 90%;
+    font-size: 20px;
+  }
+  .whiteLabelBanner {
+    padding-top: 125px;
+  }
+  .stepsContainer {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .steps {
+    padding: 0;
+    width: 100%;
+  }
+  .stepsContainer .image {
+    display: none;
+  }
+  .step:last-of-type {
+    margin-bottom: 0;
+  }
+  .steps::before {
+    left: 46px;
+  }
+  .logo {
+    width: 30%;
+  }
+
+  .cta {
+    width: 70%;
+    text-align: rigHT;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .whiteLabelBanner {
+    padding-top: 100px;
+  }
+  .heroText h1 {
+    font-size: 30px !important;
+  }
+  .heroForm {
+    width: 100%;
+  }
+  .steps::before {
+    left: 42px;
+  }
+  .noBrainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .noBrainer .item {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  .logo {
+    width: 40%;
+  }
+
+  .cta {
+    width: 55%;
+    text-align: rigHT;
+  }
+  .cta button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .logo img {
+    width: 100%;
+  }
+
+  .cta a {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .footerRow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerCol {
+    width: 100%;
+    text-align: center;
+  }
+  .footerCol:last-of-type {
+    margin-bottom: 0;
+  }
+  .horizontalFormSection h2{
+    text-align: center;
+  }
+  .horizontalForm form input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .horizontalForm form button {
+    margin-top: 20px;
+  }
+}

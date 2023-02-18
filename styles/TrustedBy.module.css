@@ -1,0 +1,13 @@
+.image img{
+    filter: grayscale(1);
+    height: auto;
+    width: 200px;
+} 
+
+.middleRow{
+    margin: 20px 0;
+}
+
+.firstRow{
+    margin-top: 40px;
+}

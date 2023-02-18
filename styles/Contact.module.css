@@ -1,0 +1,162 @@
+.contactSection {
+  padding: 150px 0 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 50px 20px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+  margin: 30px 10px 0;
+}
+
+.form h3 {
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.form p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.form form {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+
+  height: 60px;
+}
+
+.form select {
+  width: 100%;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #fece1a;
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+.contactBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.contactBox {
+  padding: 0 10px;
+  margin: 10px 0;
+  width: 25%;
+}
+
+.singleBox {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.singleBox svg {
+  color: #002eff;
+  font-size: 30px;
+  margin-bottom: 20px;
+  max-width: 30px;
+}
+
+.singleBox h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.singleBox a,
+.singleBox p {
+  font-weight: 600;
+  color: #002eff;
+  font-size: 16px;
+}
+
+.singleBox a:hover {
+  color: #fece1a;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a{
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social svg {
+  color: #002eff;
+}
+
+.social svg:hover {
+  color: #fece1a;
+}
+
+.form h2{
+  font-size: 35px;
+}
+
+@media (max-width: 1200px) {
+  .contactBox {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 576px) {
+  .contactBox {
+    width: 100%;
+  }
+}

@@ -1,0 +1,125 @@
+section.briefService {
+  background: #f6f6f6;
+  padding: 100px 0 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.briefService,
+.tabs { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.desc {
+  width: 40%;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.desc h2,
+.desc p {
+  color: #000;
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  background: #002eff;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.tabs1 {
+  margin-top: -40px !important;
+}
+
+.tabs1,
+.tabs2 {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.tab1,
+.tab3 {
+  width: 100%;
+  height: 330px;
+  background-color: #fff;
+  color: #1d1d1d;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.tab2,
+.tab4 {
+  width: 100%;
+  height: 330px;
+  background-color: #fff;
+  color: #1d1d1d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.tabs h3 {
+  font-size: 24px;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+.tabs p {
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  div.briefService {
+    flex-direction: column;
+  }
+  div.briefService .tabs {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+  div.briefService .desc {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  div.briefService .tabs {
+    flex-direction: column;
+  }
+  .tab1,
+  .tab2,
+  .tab3,
+  .tab4 {
+    margin: 20px 0;
+  }
+  .tab3 {
+    margin-top: 0;
+  }
+  .tabs1,
+  .tabs2 {
+    margin: 0 !important;
+  }
+  section.briefService {
+    padding: 70px 0;
+  }
+}

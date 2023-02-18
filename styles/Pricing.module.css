@@ -1,0 +1,133 @@
+.pricingBanner {
+  padding: 150px 0 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../public/bannerBg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+ 
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.heroText h1 {
+  color: #fff;
+}
+
+.heroText p {
+  margin: 30px 0 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.heroImage {
+  width: 50%;
+  text-align: center;
+}
+
+.heroImage img {
+  width: 80%;
+}
+
+.heroForm {
+  width: 50%;
+  padding-right: 150px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+}
+
+.form h3 {
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.form p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.form form {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+
+  height: 40px;
+}
+
+.form select {
+  width: 100%;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #fece1a;
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+@media (max-width: 991px) {
+  .heroContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroText {
+    width: 100%;
+    text-align: center;
+  }
+  .heroText p{
+    margin-bottom: 0;
+  }
+  .heroText h1 {
+    text-align: center !important;
+  }
+  .heroImage {
+    display: none;
+  }
+  .heroForm {
+    margin: 40px auto;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroForm {
+    width: 100%;
+  }
+}

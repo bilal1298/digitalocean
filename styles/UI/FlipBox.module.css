@@ -1,0 +1,89 @@
+.flipboxContainer {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.flipbox {
+  width: 33%;
+  height: 360px;
+  padding: 10px;
+}
+
+.flipboxContent {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.flipboxContent h3 {
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.plusIcon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  border: 2px solid rgb(124, 124, 124);
+  cursor: pointer;
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.plusIcon.closeIcon {
+  transform: rotate(45deg);
+}
+
+.flipboxContent p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.iconContainer {
+  width: 70px;
+  height: 70px;
+  background: #002eff;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconContainer img{
+  width: 100%;
+  height: 100%
+}
+
+@media(max-width:991px){
+  .flipbox{
+    width: 50%;
+  }
+}
+
+@media(max-width:767px){
+  .flipbox{
+    width: 100%;
+  }
+}

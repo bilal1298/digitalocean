@@ -1,0 +1,146 @@
+section.banner {
+  min-height: 100vh;
+  background-color: /*#b3c0ff*/ #99b4ff;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../public/bannerBg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.banner {
+  display: flex;
+  min-height: 100vh; 
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.heroText {
+  width: 60%;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 150px 0;
+}
+
+.heroText h1 {
+  font-family: "veronabold";
+  font-size: 40px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.heroText p {
+  color: #fff;
+  margin: 20px 0 30px;
+}
+
+.heroForm {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px 20px;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 12%);
+}
+
+.form h3 {
+  font-size: 25px;
+}
+
+.form p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.form form {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+
+  height: 40px;
+}
+
+.form select {
+  width: 100%;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.form textarea {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  height: 80px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #002eff;
+  border: 2px solid #002eff;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: #fece1a;
+  color: #1d1d1d !important;
+  border: 2px solid #000;
+}
+
+/* @media(max-width: 1400px){
+  div.banner{
+    min-height: 120vh;
+  }
+} */
+
+@media (max-width: 991px) {
+  div.banner {
+    flex-direction: column;
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .heroText,
+  .heroForm {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  .heroText {
+    margin: 50px 0;
+    padding: 0;
+    align-items: center;
+  }
+  .heroText h1 {
+    font-size: 35px;
+  }
+}
